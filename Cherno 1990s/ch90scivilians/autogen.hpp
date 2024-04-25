@@ -342,7 +342,7 @@ class CfgVehicles {
         side = 3;
         faction = "CIV_F_Cher90";
 
-        identityTypes[] = {"Head_Euro","LanguageRUS","G_IRAN_default"};
+        identityTypes[] = {"Head_Euro","LanguageCZ","G_CIVIL_male"};
 
         uniformClass = "LOP_U_CHR_Villager_01";
 
@@ -380,7 +380,7 @@ class CfgVehicles {
         side = 3;
         faction = "CIV_F_Cher90";
 
-        identityTypes[] = {"Head_Euro","LanguageRUS","G_IRAN_default"};
+        identityTypes[] = {"Head_Euro","LanguageCZ","G_CIVIL_male"};
 
         uniformClass = "LOP_U_CHR_Villager_02";
 
@@ -418,7 +418,7 @@ class CfgVehicles {
         side = 3;
         faction = "CIV_F_Cher90";
 
-        identityTypes[] = {"Head_Euro","LanguageRUS","G_IRAN_default"};
+        identityTypes[] = {"Head_Euro","LanguageCZ","G_CIVIL_male"};
 
         uniformClass = "LOP_U_CHR_Villager_03";
 
@@ -456,7 +456,7 @@ class CfgVehicles {
         side = 3;
         faction = "CIV_F_Cher90";
 
-        identityTypes[] = {"Head_Euro","LanguageRUS","G_IRAN_default"};
+        identityTypes[] = {"Head_Euro","LanguageCZ","G_CIVIL_male"};
 
         uniformClass = "LOP_U_CHR_Villager_04";
 
@@ -494,7 +494,7 @@ class CfgVehicles {
         side = 3;
         faction = "CIV_F_Cher90";
 
-        identityTypes[] = {"Head_Euro","LanguageRUS","G_IRAN_default"};
+        identityTypes[] = {"Head_Euro","LanguageCZ","G_CIVIL_male"};
 
         uniformClass = "LOP_U_CHR_Woodlander_01";
 
@@ -532,7 +532,7 @@ class CfgVehicles {
         side = 3;
         faction = "CIV_F_Cher90";
 
-        identityTypes[] = {"Head_Euro","LanguageRUS","G_IRAN_default"};
+        identityTypes[] = {"Head_Euro","LanguageCZ","G_CIVIL_male"};
 
         uniformClass = "LOP_U_CHR_Woodlander_02";
 
@@ -570,7 +570,7 @@ class CfgVehicles {
         side = 3;
         faction = "CIV_F_Cher90";
 
-        identityTypes[] = {"Head_Euro","LanguageRUS","G_IRAN_default"};
+        identityTypes[] = {"Head_Euro","LanguageCZ","G_CIVIL_male"};
 
         uniformClass = "LOP_U_CHR_Woodlander_03";
 
@@ -608,7 +608,7 @@ class CfgVehicles {
         side = 3;
         faction = "CIV_F_Cher90";
 
-        identityTypes[] = {"Head_Euro","LanguageRUS","G_IRAN_default"};
+        identityTypes[] = {"Head_Euro","LanguageCZ","G_CIVIL_male"};
 
         uniformClass = "LOP_U_CHR_Woodlander_04";
 
@@ -646,7 +646,7 @@ class CfgVehicles {
         side = 3;
         faction = "CIV_F_Cher90";
 
-        identityTypes[] = {"Head_Euro","LanguageRUS","G_IRAN_default"};
+        identityTypes[] = {"Head_Euro","LanguageCZ","G_CIVIL_male"};
 
         uniformClass = "LOP_U_CHR_Worker_01";
 
@@ -684,7 +684,7 @@ class CfgVehicles {
         side = 3;
         faction = "CIV_F_Cher90";
 
-        identityTypes[] = {"Head_Euro","LanguageRUS","G_IRAN_default"};
+        identityTypes[] = {"Head_Euro","LanguageCZ","G_CIVIL_male"};
 
         uniformClass = "LOP_U_CHR_Worker_02";
 
@@ -722,7 +722,7 @@ class CfgVehicles {
         side = 3;
         faction = "CIV_F_Cher90";
 
-        identityTypes[] = {"Head_Euro","LanguageRUS","G_IRAN_default"};
+        identityTypes[] = {"Head_Euro","LanguageCZ","G_CIVIL_male"};
 
         uniformClass = "LOP_U_CHR_Worker_03";
 
@@ -760,7 +760,7 @@ class CfgVehicles {
         side = 3;
         faction = "CIV_F_Cher90";
 
-        identityTypes[] = {"Head_Euro","LanguageRUS","G_IRAN_default"};
+        identityTypes[] = {"Head_Euro","LanguageCZ","G_CIVIL_male"};
 
         uniformClass = "LOP_U_CHR_Worker_04";
 
@@ -798,7 +798,7 @@ class CfgVehicles {
         side = 3;
         faction = "CIV_F_Cher90";
 
-        identityTypes[] = {"Head_Euro","LanguageRUS","G_IRAN_default"};
+        identityTypes[] = {"Head_Euro","LanguageCZ","G_CIVIL_male"};
 
         uniformClass = "LOP_U_CHR_Rocker_01";
 
@@ -836,7 +836,7 @@ class CfgVehicles {
         side = 3;
         faction = "CIV_F_Cher90";
 
-        identityTypes[] = {"Head_Euro","LanguageRUS","G_IRAN_default"};
+        identityTypes[] = {"Head_Euro","LanguageCZ","G_CIVIL_male"};
 
         uniformClass = "LOP_U_CHR_Rocker_02";
 
@@ -874,7 +874,7 @@ class CfgVehicles {
         side = 3;
         faction = "CIV_F_Cher90";
 
-        identityTypes[] = {"Head_Euro","LanguageRUS","G_IRAN_default"};
+        identityTypes[] = {"Head_Euro","LanguageCZ","G_CIVIL_male"};
 
         uniformClass = "LOP_U_CHR_Rocker_03";
 
@@ -912,7 +912,7 @@ class CfgVehicles {
         side = 3;
         faction = "CIV_F_Cher90";
 
-        identityTypes[] = {"Head_Euro","LanguageRUS","G_IRAN_default"};
+        identityTypes[] = {"Head_Euro","LanguageCZ","G_CIVIL_male"};
 
         uniformClass = "LOP_U_CHR_Rocker_04";
 
@@ -950,7 +950,7 @@ class CfgVehicles {
         side = 3;
         faction = "CIV_F_Cher90";
 
-        identityTypes[] = {"Head_Euro","LanguageRUS","G_IRAN_default"};
+        identityTypes[] = {"Head_Euro","LanguageCZ","G_CIVIL_male"};
 
         uniformClass = "LOP_U_CHR_Profiteer_01";
 
@@ -988,7 +988,7 @@ class CfgVehicles {
         side = 3;
         faction = "CIV_F_Cher90";
 
-        identityTypes[] = {"Head_Euro","LanguageRUS","G_IRAN_default"};
+        identityTypes[] = {"Head_Euro","LanguageCZ","G_CIVIL_male"};
 
         uniformClass = "LOP_U_CHR_Profiteer_02";
 
@@ -1026,7 +1026,7 @@ class CfgVehicles {
         side = 3;
         faction = "CIV_F_Cher90";
 
-        identityTypes[] = {"Head_Euro","LanguageRUS","G_IRAN_default"};
+        identityTypes[] = {"Head_Euro","LanguageCZ","G_CIVIL_male"};
 
         uniformClass = "LOP_U_CHR_Profiteer_03";
 
@@ -1064,7 +1064,7 @@ class CfgVehicles {
         side = 3;
         faction = "CIV_F_Cher90";
 
-        identityTypes[] = {"Head_Euro","LanguageRUS","G_IRAN_default"};
+        identityTypes[] = {"Head_Euro","LanguageCZ","G_CIVIL_male"};
 
         uniformClass = "LOP_U_CHR_Profiteer_04";
 
@@ -1102,7 +1102,7 @@ class CfgVehicles {
         side = 3;
         faction = "CIV_F_Cher90";
 
-        identityTypes[] = {"Head_Euro","LanguageRUS","G_IRAN_default"};
+        identityTypes[] = {"Head_Euro","LanguageCZ","G_CIVIL_male"};
 
         uniformClass = "LOP_U_CHR_Priest_01";
 
@@ -1140,7 +1140,7 @@ class CfgVehicles {
         side = 3;
         faction = "CIV_F_Cher90";
 
-        identityTypes[] = {"Head_Euro","LanguageRUS","G_IRAN_default"};
+        identityTypes[] = {"Head_Euro","LanguageCZ","G_CIVIL_male"};
 
         uniformClass = "LOP_U_CHR_Doctor_01";
 
@@ -1178,7 +1178,7 @@ class CfgVehicles {
         side = 3;
         faction = "CIV_F_Cher90";
 
-        identityTypes[] = {"Head_Euro","LanguageRUS","G_IRAN_default"};
+        identityTypes[] = {"Head_Euro","LanguageCZ","G_CIVIL_male"};
 
         uniformClass = "LOP_U_CHR_SchoolTeacher_01";
 
@@ -1216,7 +1216,7 @@ class CfgVehicles {
         side = 3;
         faction = "CIV_F_Cher90";
 
-        identityTypes[] = {"Head_Euro","LanguageRUS","G_IRAN_default"};
+        identityTypes[] = {"Head_Euro","LanguageCZ","G_CIVIL_male"};
 
         uniformClass = "LOP_U_CHR_Assistant_01";
 
@@ -1254,7 +1254,7 @@ class CfgVehicles {
         side = 3;
         faction = "CIV_F_Cher90";
 
-        identityTypes[] = {"Head_Euro","LanguageRUS","G_IRAN_default"};
+        identityTypes[] = {"Head_Euro","LanguageCZ","G_CIVIL_male"};
 
         uniformClass = "LOP_U_CHR_Policeman_01";
 
@@ -1292,7 +1292,7 @@ class CfgVehicles {
         side = 3;
         faction = "CIV_F_Cher90";
 
-        identityTypes[] = {"Head_Euro","LanguageRUS","G_IRAN_default"};
+        identityTypes[] = {"Head_Euro","LanguageCZ","G_CIVIL_male"};
 
         uniformClass = "LOP_U_CHR_Functionary_01";
 
@@ -1330,7 +1330,7 @@ class CfgVehicles {
         side = 3;
         faction = "CIV_F_Cher90";
 
-        identityTypes[] = {"Head_Euro","LanguageRUS","G_IRAN_default"};
+        identityTypes[] = {"Head_Euro","LanguageCZ","G_CIVIL_male"};
 
         uniformClass = "LOP_U_CHR_Functionary_02";
 
@@ -1368,7 +1368,7 @@ class CfgVehicles {
         side = 3;
         faction = "CIV_F_Cher90";
 
-        identityTypes[] = {"Head_Euro","LanguageRUS","G_IRAN_default"};
+        identityTypes[] = {"Head_Euro","LanguageCZ","G_CIVIL_male"};
 
         uniformClass = "LOP_U_CHR_Citizen_01";
 
@@ -1406,7 +1406,7 @@ class CfgVehicles {
         side = 3;
         faction = "CIV_F_Cher90";
 
-        identityTypes[] = {"Head_Euro","LanguageRUS","G_IRAN_default"};
+        identityTypes[] = {"Head_Euro","LanguageCZ","G_CIVIL_male"};
 
         uniformClass = "LOP_U_CHR_Citizen_02";
 
@@ -1444,7 +1444,7 @@ class CfgVehicles {
         side = 3;
         faction = "CIV_F_Cher90";
 
-        identityTypes[] = {"Head_Euro","LanguageRUS","G_IRAN_default"};
+        identityTypes[] = {"Head_Euro","LanguageCZ","G_CIVIL_male"};
 
         uniformClass = "LOP_U_CHR_Citizen_03";
 
@@ -1482,7 +1482,7 @@ class CfgVehicles {
         side = 3;
         faction = "CIV_F_Cher90";
 
-        identityTypes[] = {"Head_Euro","LanguageRUS","G_IRAN_default"};
+        identityTypes[] = {"Head_Euro","LanguageCZ","G_CIVIL_male"};
 
         uniformClass = "LOP_U_CHR_Citizen_04";
 
@@ -1520,7 +1520,7 @@ class CfgVehicles {
         side = 3;
         faction = "CIV_F_Cher90";
 
-        identityTypes[] = {"Head_Euro","LanguageRUS","G_IRAN_default"};
+        identityTypes[] = {"Head_Euro","LanguageCZ","G_CIVIL_male"};
 
         uniformClass = "LOP_U_CHR_Worker_04";
 
