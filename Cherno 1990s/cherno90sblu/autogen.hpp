@@ -1800,6 +1800,8 @@ class CfgVehicles {
 
 
         class EventHandlers : EventHandlers {
+            postInit = "params ['_entity']; _entity ['VehicleSystemsDisplayManagerComponentRight', 'MinimapDisplay', false]; _entity ['VehicleSystemsDisplayManagerComponentLeft', 'MinimapDisplay', false];";
+            
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
@@ -2144,6 +2146,7 @@ class CfgVehicles {
         side = 1;
         faction = "B_AFBiH";
         crew = "B_AFBiH_Pilot";
+        ace_cargo_space = 14
 
         class Turrets : Turrets {
             class CopilotTurret : CopilotTurret { gunnerType = "B_AFBiH_Pilot"; };

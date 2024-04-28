@@ -1543,6 +1543,8 @@ class CfgVehicles {
 
 
         class EventHandlers : EventHandlers {
+            postInit = "params ['_entity']; _entity ['VehicleSystemsDisplayManagerComponentRight', 'MinimapDisplay', false]; _entity ['VehicleSystemsDisplayManagerComponentLeft', 'MinimapDisplay', false];";
+            
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
