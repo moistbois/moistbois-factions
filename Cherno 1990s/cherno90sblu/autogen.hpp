@@ -1800,6 +1800,8 @@ class CfgVehicles {
 
 
         class EventHandlers : EventHandlers {
+            postInit = "params ['_entity']; [_entity] enableInfoPanelComponent ['right', 'MinimapDisplay', false]; [_entity] enableInfoPanelComponent ['left', 'MinimapDisplay', false];";
+
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
