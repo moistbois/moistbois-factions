@@ -1565,6 +1565,7 @@ class CfgVehicles {
         side = 0;
         faction = "O_RSA90";
         crew = "O_RSA90_Driver";
+        enableGPS = 0;
 
         class Turrets : Turrets {
             class GPK_Turret : GPK_Turret { gunnerType = "O_RSA90_Engineer"; };
