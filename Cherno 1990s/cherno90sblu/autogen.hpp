@@ -2146,6 +2146,7 @@ class CfgVehicles {
         side = 1;
         faction = "B_AFBiH";
         crew = "B_AFBiH_Pilot";
+        ace_cargo_space = 14;
 
         class Turrets : Turrets {
             class CopilotTurret : CopilotTurret { gunnerType = "B_AFBiH_Pilot"; };

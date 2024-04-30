@@ -1919,6 +1919,7 @@ class CfgVehicles {
         side = 0;
         faction = "O_RSA90";
         crew = "O_RSA90_Pilot";
+        ace_cargo_space = 14;
 
         class Turrets : Turrets {
             class CopilotTurret : CopilotTurret { gunnerType = "O_RSA90_Pilot"; };
