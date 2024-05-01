@@ -1791,6 +1791,7 @@ class CfgVehicles {
         side = 1;
         faction = "B_AFBiH";
         crew = "B_AFBiH_Driver";
+        enableGPS = 0;
 
         class Turrets : Turrets {
             class GPK_Turret : GPK_Turret { gunnerType = "B_AFBiH_Engineer"; };
@@ -2144,6 +2145,7 @@ class CfgVehicles {
         side = 1;
         faction = "B_AFBiH";
         crew = "B_AFBiH_Pilot";
+        ace_cargo_space = 14;
 
         class Turrets : Turrets {
             class CopilotTurret : CopilotTurret { gunnerType = "B_AFBiH_Pilot"; };
