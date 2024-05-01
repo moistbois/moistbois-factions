@@ -1791,6 +1791,7 @@ class CfgVehicles {
         side = 1;
         faction = "B_AFBiH";
         crew = "B_AFBiH_Driver";
+        enableGPS = 0;
 
         class Turrets : Turrets {
             class GPK_Turret : GPK_Turret { gunnerType = "B_AFBiH_Engineer"; };
@@ -1800,8 +1801,6 @@ class CfgVehicles {
 
 
         class EventHandlers : EventHandlers {
-            postInit = "params ['_entity']; [_entity] enableInfoPanelComponent ['right', 'MinimapDisplay', false]; [_entity] enableInfoPanelComponent ['left', 'MinimapDisplay', false];";
-
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
