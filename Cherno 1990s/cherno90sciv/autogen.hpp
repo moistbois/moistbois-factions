@@ -1801,6 +1801,8 @@ class CfgVehicles {
 
     class C_Cher90s_Civ_JAWA : RDS_JAWA353_Civ_01_OCimport_02 {
         author = "carlmylo";
+        ace_cargo_space = 0;  // Cargo space your vehicle has
+        ace_cargo_hasCargo = 0;  // Enables cargo to be loaded inside the vehicle (1-yes, 0-no)
         scope = 2;
         scopeCurator = 2;
         displayName = "Jawa";
@@ -1878,6 +1880,8 @@ class CfgVehicles {
 
     class C_Cher90s_Civ_Bike : RDS_Old_bike_Civ_01_OCimport_02 {
         author = "carlmylo";
+        ace_cargo_space = 0;  // Cargo space your vehicle has
+        ace_cargo_hasCargo = 0;  // Enables cargo to be loaded inside the vehicle (1-yes, 0-no)
         scope = 2;
         scopeCurator = 2;
         displayName = "Old Bike";
