@@ -53,6 +53,8 @@ class CfgPatches {
             "B_AFBiH_M2Lo",
             "B_AFBiH_NSV",
             "B_AFBiH_GAZ66_Transport",
+            "B_AFBiH_Arsenal",
+            "B_AFBiH_EmptyBox",
             "B_AFBiH_IglaBox",
             "B_AFBiH_SPG9Box",
             "B_AFBiH_KORDBox",

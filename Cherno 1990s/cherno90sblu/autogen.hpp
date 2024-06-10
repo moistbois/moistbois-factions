@@ -81,12 +81,68 @@ class CBA_Extended_EventHandlers_base;
 
 class CfgVehicles {
     class CUP_ammobednaX;
+    class B_supplyCrate_F;
     class Land_WoodenCrate_01_F;
+    
+        class B_AFBiH_Arsenal : B_supplyCrate_F {
+        author = Carl Mylo;
+        displayName = "Arsenal Box";
+		ace_cargo_size = 6;  // Cargo space the object takes
+        //ace_cargo_space = 0;  // Cargo space your vehicle has
+        ace_cargo_hasCargo = 0;  // Enables cargo to be loaded inside the vehicle
+        ace_cargo_canLoad = 1;  // Enables the object to be loaded (1-yes, 0-no)
+        ace_cargo_noRename = 1;  // Blocks renaming object (1-blocked, 0-allowed)
+        ace_cargo_blockUnloadCarry = 1; // Blocks object from being automatically picked up by player on unload
+		ace_dragging_canDrag = 1;  // Can be dragged (0-no, 1-yes)
+        ace_dragging_dragPosition[] = {0, 1.2, 0};  // Offset of the model from the body while dragging (same as attachTo) (default: [0, 1.5, 0])
+        ace_dragging_dragDirection = 0;  // Model direction while dragging (same as setDir after attachTo) (default: 0)
+        ace_dragging_ignoreWeight = 1; // Ignore weight limitation for dragging (0-no, 1-yes)
+		ace_dragging_canCarry = 0;  // Can be carried (0-no, 1-yes)
+        ace_dragging_ignoreWeightCarry = 0; // Ignore weight limitation for carrying (0-no, 1-yes)
+        class TransportMagazines {
+        };
+        class TransportWeapons {
+        };
+        class TransportItems {
+        };
+        class EventHandlers {
+            postInit = "params ['_entity']; [_entity, true, [0,3.2,0], 0] call ace_dragging_fnc_setCarryable;[_entity, true, [0,2.2,0], 0] call ace_dragging_fnc_setDraggable;";
+        };
+    };
+    
+        class B_AFBiH_EmptyBox : Land_WoodenCrate_01_F {
+        author = Carl Mylo;
+        displayName = "Wooden Crate";
+		ace_cargo_size = 2;  // Cargo space the object takes
+        //ace_cargo_space = 0;  // Cargo space your vehicle has
+        ace_cargo_hasCargo = 0;  // Enables cargo to be loaded inside the vehicle
+        ace_cargo_canLoad = 1;  // Enables the object to be loaded (1-yes, 0-no)
+        ace_cargo_noRename = 1;  // Blocks renaming object (1-blocked, 0-allowed)
+        ace_cargo_blockUnloadCarry = 0; // Blocks object from being automatically picked up by player on unload
+		ace_dragging_canDrag = 1;  // Can be dragged (0-no, 1-yes)
+        ace_dragging_dragPosition[] = {0, 1.2, 0};  // Offset of the model from the body while dragging (same as attachTo) (default: [0, 1.5, 0])
+        ace_dragging_dragDirection = 0;  // Model direction while dragging (same as setDir after attachTo) (default: 0)
+        ace_dragging_ignoreWeight = 1; // Ignore weight limitation for dragging (0-no, 1-yes)
+		ace_dragging_canCarry = 1;  // Can be carried (0-no, 1-yes)
+        ace_dragging_carryPosition[] = {0, 1.2, 0};  // Offset of the model from the body while dragging (same as attachTo) (default: [0, 1, 1])
+        ace_dragging_carryDirection = 0;  // Model direction while dragging (same as setDir after attachTo) (default: 0)
+        ace_dragging_ignoreWeightCarry = 1; // Ignore weight limitation for carrying (0-no, 1-yes)
+        class TransportMagazines {
+        };
+        class TransportWeapons {
+        };
+        class TransportItems {
+        };
+        class EventHandlers {
+            postInit = "params ['_entity']; [_entity, true, [0,3.2,0], 0] call ace_dragging_fnc_setCarryable;[_entity, true, [0,2.2,0], 0] call ace_dragging_fnc_setDraggable;";
+        };
+    };
 
     class B_AFBiH_IglaBox : CUP_ammobednaX {
         author = Carl Mylo;
         displayName = Igla Crate;
-		ace_cargo_size = 1;  // Cargo space the object takes
+		ace_cargo_size = 2;  // Cargo space the object takes
+        ace_cargo_hasCargo = 0;  // Enables cargo to be loaded inside the vehicle
         ace_cargo_canLoad = 1;  // Enables the object to be loaded (1-yes, 0-no)
         ace_cargo_noRename = 1;  // Blocks renaming object (1-blocked, 0-allowed)
         ace_cargo_blockUnloadCarry = 0; // Blocks object from being automatically picked up by player on unload
@@ -122,7 +178,50 @@ class CfgVehicles {
     class B_AFBiH_FNMagBox : Land_WoodenCrate_01_F {
         author = Carl Mylo;
         displayName = FN Mag Crate;
-		ace_cargo_size = 1;  // Cargo space the object takes
+		ace_cargo_size = 2;  // Cargo space the object takes
+        ace_cargo_hasCargo = 0;  // Enables cargo to be loaded inside the vehicle
+        ace_cargo_canLoad = 1;  // Enables the object to be loaded (1-yes, 0-no)
+        ace_cargo_noRename = 1;  // Blocks renaming object (1-blocked, 0-allowed)
+        ace_cargo_blockUnloadCarry = 0; // Blocks object from being automatically picked up by player on unload
+		ace_dragging_canDrag = 1;  // Can be dragged (0-no, 1-yes)
+        ace_dragging_dragPosition[] = {0, 1.2, 0};  // Offset of the model from the body while dragging (same as attachTo) (default: [0, 1.5, 0])
+        ace_dragging_dragDirection = 0;  // Model direction while dragging (same as setDir after attachTo) (default: 0)
+        ace_dragging_ignoreWeight = 1; // Ignore weight limitation for dragging (0-no, 1-yes)
+		ace_dragging_canCarry = 1;  // Can be carried (0-no, 1-yes)
+        ace_dragging_carryPosition[] = {0, 1.2, 0};  // Offset of the model from the body while dragging (same as attachTo) (default: [0, 1, 1])
+        ace_dragging_carryDirection = 0;  // Model direction while dragging (same as setDir after attachTo) (default: 0)
+        ace_dragging_ignoreWeightCarry = 1; // Ignore weight limitation for carrying (0-no, 1-yes)
+        class TransportMagazines {
+            class _internal_rhsusf_100Rnd_762x51
+            {
+                magazine = "rhsusf_100Rnd_762x51";
+                count = 20;
+            };
+        };
+        class TransportWeapons {
+            class _internal_rhs_weap_fnmag
+            {
+                weapon = "rhs_weap_fnmag";
+                count = 3;
+            };
+        };
+        class TransportItems {
+            class _internal_sparebarrel
+            {
+                name = "ACE_SpareBarrel";
+                count = 6;
+            };
+        };
+        class EventHandlers {
+            postInit = "params ['_entity']; [_entity, true, [0,3.2,0], 0] call ace_dragging_fnc_setCarryable;[_entity, true, [0,2.2,0], 0] call ace_dragging_fnc_setDraggable;";
+        };
+    };
+    
+        class B_AFBiH_CacheBox : Land_WoodenCrate_01_F {
+        author = Carl Mylo;
+        displayName = FN Mag Crate;
+		ace_cargo_size = 2;  // Cargo space the object takes
+        ace_cargo_hasCargo = 0;  // Enables cargo to be loaded inside the vehicle
         ace_cargo_canLoad = 1;  // Enables the object to be loaded (1-yes, 0-no)
         ace_cargo_noRename = 1;  // Blocks renaming object (1-blocked, 0-allowed)
         ace_cargo_blockUnloadCarry = 0; // Blocks object from being automatically picked up by player on unload
@@ -163,7 +262,8 @@ class CfgVehicles {
     class B_AFBiH_SPG9Box : CUP_ammobednaX {
         author = Carl Mylo;
         displayName = SPG9 PG9N Crate;
-		ace_cargo_size = 1;  // Cargo space the object takes
+		ace_cargo_size = 2;  // Cargo space the object takes
+        ace_cargo_hasCargo = 0;  // Enables cargo to be loaded inside the vehicle
         ace_cargo_canLoad = 1;  // Enables the object to be loaded (1-yes, 0-no)
         ace_cargo_noRename = 1;  // Blocks renaming object (1-blocked, 0-allowed)
         ace_cargo_blockUnloadCarry = 0; // Blocks object from being automatically picked up by player on unload
@@ -194,7 +294,8 @@ class CfgVehicles {
     class B_AFBiH_KORDBox : Land_WoodenCrate_01_F {
         author = Carl Mylo;
         displayName = "KORD and NSV Ammo Crate";
-		ace_cargo_size = 1;  // Cargo space the object takes
+		ace_cargo_size = 2;  // Cargo space the object takes
+        ace_cargo_hasCargo = 0;  // Enables cargo to be loaded inside the vehicle
         ace_cargo_canLoad = 1;  // Enables the object to be loaded (1-yes, 0-no)
         ace_cargo_noRename = 1;  // Blocks renaming object (1-blocked, 0-allowed)
         ace_cargo_blockUnloadCarry = 0; // Blocks object from being automatically picked up by player on unload
@@ -226,6 +327,7 @@ class CfgVehicles {
         author = Carl Mylo;
         displayName = "M2 Ammo Crate";
 		ace_cargo_size = 1;  // Cargo space the object takes
+        ace_cargo_hasCargo = 0;  // Enables cargo to be loaded inside the vehicle
         ace_cargo_canLoad = 1;  // Enables the object to be loaded (1-yes, 0-no)
         ace_cargo_noRename = 1;  // Blocks renaming object (1-blocked, 0-allowed)
         ace_cargo_blockUnloadCarry = 0; // Blocks object from being automatically picked up by player on unload
@@ -256,7 +358,8 @@ class CfgVehicles {
     class B_AFBiH_2B14Box : CUP_ammobednaX {
         author = Carl Mylo;
         displayName = "2B14 Ammo Crate";
-		ace_cargo_size = 1;  // Cargo space the object takes
+		ace_cargo_size = 2;  // Cargo space the object takes
+        ace_cargo_hasCargo = 0;  // Enables cargo to be loaded inside the vehicle
         ace_cargo_canLoad = 1;  // Enables the object to be loaded (1-yes, 0-no)
         ace_cargo_noRename = 1;  // Blocks renaming object (1-blocked, 0-allowed)
         ace_cargo_blockUnloadCarry = 0; // Blocks object from being automatically picked up by player on unload
@@ -297,7 +400,8 @@ class CfgVehicles {
     class B_AFBiH_M80Box : CUP_ammobednaX {
         author = Carl Mylo;
         displayName = Crate of M80 RPGs;
-		ace_cargo_size = 1;  // Cargo space the object takes
+		ace_cargo_size = 2;  // Cargo space the object takes
+        ace_cargo_hasCargo = 0;  // Enables cargo to be loaded inside the vehicle
         ace_cargo_canLoad = 1;  // Enables the object to be loaded (1-yes, 0-no)
         ace_cargo_noRename = 1;  // Blocks renaming object (1-blocked, 0-allowed)
         ace_cargo_blockUnloadCarry = 0; // Blocks object from being automatically picked up by player on unload
